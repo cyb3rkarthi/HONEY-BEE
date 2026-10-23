@@ -1,0 +1,26 @@
+{
+  "name": "melli-3d-artistry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Melli — Master 3D Artistry landing page with scroll-driven Three.js 3D honeybee",
+  "keywords": [
+    "threejs",
+    "3d",
+    "landing-page",
+    "animation",
+    "webgl",
+    "parallax"
+  ],
+  "author": "Melli",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve . -l 3000",
+    "start": "serve . -l 3000",
+    "build": "echo 'Static project ready for deployment'",
+    "preview": "serve . -l 5000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
